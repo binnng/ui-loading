@@ -1,0 +1,27 @@
+{
+  "name": "binnng/ui-loading",
+  "main": [
+    "ui-loading.js",
+    "ui-loading.css"
+  ]
+  "version": "0.0.1",
+  "homepage": "https://github.com/binnng/ui-loading",
+  "authors": [
+    "binnng <imbinnng@gmail.com>"
+  ],
+  "description": "ui loading",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "loading"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
