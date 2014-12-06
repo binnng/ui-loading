@@ -3,4 +3,17 @@ loading
 
 ui-loading
 
-会将classname为`btn`的元素自动添加loading状态。
+会将指定的元素自动添加loading状态。
+
+```coffeescript
+
+querySelectorAll = DOC["querySelectorAll"]
+
+$ = if noop.bind then querySelectorAll.bind DOC else (selector) ->
+	querySelectorAll selector
+
+els = $ ".btn"
+
+(require "binnng/ui-loading") els
+
+```
