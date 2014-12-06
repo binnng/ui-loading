@@ -1,0 +1,76 @@
+.ui-loading,
+.ui-loading:after,
+.ui-loading:before {
+  width: 5px;
+  height: 10px;
+  -webkit-animation: loading 1.4s infinite linear;
+  animation: loading 1.4s infinite linear;
+  background: #d80c18;
+}
+
+.ui-loading {
+  position: absolute;
+  margin: 0 auto;
+  display: none;
+  padding: 0 !important;
+  opacity: 0.1;
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+  left: 50%;
+  margin-left: -4px;
+  top: 50%;
+  margin-top: -6px; 
+}
+
+.ui-loading:after, 
+.ui-loading:before {
+  content: "";
+  position: absolute; 
+}
+
+.ui-loading:after {
+  margin-right: auto;
+  left: -6px;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s; 
+}
+
+.ui-loading:before {
+  margin-right: auto;
+  left: 6px;
+  -webkit-animation-delay: 0.9s;
+  animation-delay: 0.9s; 
+}
+
+.loading .ui-loading {
+  display: block; 
+}
+.loading b {
+  visibility: hidden; 
+}
+
+
+@-webkit-keyframes loading {
+  0%, 100% {
+    opacity: 0.1; 
+  }
+
+  30% {
+    opacity: 1; 
+  } 
+}
+
+@keyframes loading {
+  0%, 100% {
+    opacity: 0.1; 
+  }
+
+  30% {
+    opacity: 1; 
+  }
+}
+
+
+.btn{
+  position: relative;
+}
