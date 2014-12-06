@@ -19,3 +19,8 @@ els = $ ".btn"
 (require "binnng/ui-loading") els
 
 ```
+
+
+```
+bower install binnng-ui-loading
+```
