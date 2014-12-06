@@ -7,6 +7,8 @@ ui-loading
 
 ```coffeescript
 
+noop = ->
+
 querySelectorAll = DOC["querySelectorAll"]
 
 $ = if noop.bind then querySelectorAll.bind DOC else (selector) ->
